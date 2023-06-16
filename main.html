@@ -7,6 +7,56 @@
 </head>
 
 <body>
+	 <header role="banner">
+    <h1 role="heading" aria-level="1">John Doe</h1>
+    <img src="your_image.jpg" alt="John Doe" role="img" usemap="#solar-system-map">
+    <map name="solar-system-map">
+      <!-- Clickable area for the Sun -->
+      <area shape="rect" coords="50,50,150,150" href="sun.html" alt="The Sun">
+      
+      <!-- Clickable areas for the planets -->
+      <area shape="circle" coords="200,150,15" href="mercury.html" alt="Mercury">
+      <area shape="circle" coords="250,150,20" href="venus.html" alt="Venus">
+      <area shape="circle" coords="300,150,25" href="earth.html" alt="Earth">
+      <area shape="circle" coords="350,150,22" href="mars.html" alt="Mars">
+      <area shape="circle" coords="400,150,30" href="jupiter.html" alt="Jupiter">
+      <area shape="circle" coords="460,150,28" href="saturn.html" alt="Saturn">
+      <area shape="circle" coords="520,150,25" href="uranus.html" alt="Uranus">
+      <area shape="circle" coords="580,150,23" href="neptune.html" alt="Neptune">
+      <area shape="circle" coords="640,150,20" href="pluto.html" alt="Pluto">
+      
+      <!-- Clickable areas for dwarf planets -->
+      <area shape="circle" coords="700,150,15" href="ceres.html" alt="Ceres">
+      <area shape="circle" coords="750,150,18" href="eris.html" alt="Eris">
+    </map>
+  </header>
+  
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="skills" role="region">
+      <h2 role="heading" aria-level="2">Skills</h2>
+      <ul role="list">
+        <li role="listitem">HTML5</li>
+        <li role="listitem">CSS3</li>
+        <li role="listitem">JavaScript</li>
+        <li role="listitem">Python</li>
+      </ul>
+    </section>
+    
+    <section id="projects" role="region">
+      <h2 role="heading" aria-level="2">Projects</h2>
+      <ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+      </ul>
+    </section>
+  </main>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
